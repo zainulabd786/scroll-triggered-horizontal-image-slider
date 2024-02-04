@@ -1,0 +1,41 @@
+section {
+    height: 100vh;
+    border: 1px solid;
+  }
+  
+  .container {
+    padding: 5rem;
+  }
+  
+  .sticky__parent {
+    height: 200vh;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+    border: 2px solid red;
+  }
+  img {
+    margin: 0 10px;
+    transition: width 0.5s ease;
+    width: 400px;
+  }
+  img.center-image {
+    width: 640px;
+  }
+  
+  .scroll__section {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 200%;
+    display: flex;
+    will-change: transform;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30%;
+  }
+  
